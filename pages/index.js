@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
+import Home from '../Components/Home/Home';
 
-export default function Home() {
-  return <h1 className="text-3xl font-bold underline">Hello !</h1>;
+export default function Index() {
+  return <Home />;
 }
